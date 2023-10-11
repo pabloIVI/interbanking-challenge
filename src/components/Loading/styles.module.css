@@ -1,0 +1,8 @@
+.loading-container {
+  justify-content: center;
+  display: flex;
+  margin: 15px;
+  font-size: 20px;
+  align-items: center;
+  color: color;
+}

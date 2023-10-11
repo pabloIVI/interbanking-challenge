@@ -1,0 +1,13 @@
+.card-ibk {
+  min-height: 180px;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.delete-icon-button {
+  opacity: 0.2;
+}
+.delete-icon-button:hover {
+  opacity: 1;
+}
