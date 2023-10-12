@@ -19,7 +19,7 @@ export default function CardIbk({ item, handleDelete }: ItemProps) {
   };
 
   return (
-    <Card className={style["card-ibk"]} data-testid="card">
+    <Card className={style["card-ibk"]}>
       <CardContent>
         <Box className={style["card-header"]}>
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -27,10 +27,7 @@ export default function CardIbk({ item, handleDelete }: ItemProps) {
           </Typography>
           <Box className={style["delete-icon-button"]}>
             <Tooltip title="Eliminar" placement="right">
-              <IconButton
-                onClick={() => handleDelete(item.id)}
-                data-testid={item?.id}
-              >
+              <IconButton onClick={() => handleDelete(item.id)}>
                 <DeleteIcon />
               </IconButton>
             </Tooltip>

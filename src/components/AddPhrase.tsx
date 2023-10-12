@@ -8,7 +8,7 @@ type Props = {
 };
 function AddPhrase({ phrase, onChange, handleSubmit }: Props) {
   return (
-    <Box className="section-component-container" data-testid="postInput">
+    <Box className="section-component-container">
       <Input
         label="Escribe una frase"
         variant="outlined"
